@@ -1,0 +1,93 @@
+/* Estilo del contenedor principal */
+.container {
+    display: flex; /* Usamos Flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 100vh; /* Altura completa de la ventana */
+    width: 100vw; /* Ancho completo de la ventana */
+    margin: 0; /* Eliminamos márgenes */
+    padding: 0; /* Eliminamos relleno */
+    font-family: Arial, sans-serif;
+    position: fixed; /* Fija el contenedor en toda la pantalla */
+  }
+  
+  /* Tarjeta del formulario */
+  .formCard {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    position: relative;
+  }
+  
+  /* Ícono de perfil */
+  .profileIcon {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #34568B;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Inputs del formulario */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  /* Opciones adicionales */
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+  }
+  
+  .options input {
+    margin-right: 5px;
+  }
+  
+  .forgotPassword {
+    color: #34568B;
+    text-decoration: none;
+  }
+  
+  .forgotPassword:hover {
+    text-decoration: underline;
+  }
+  
+  /* Botón de Login */
+  .loginButton {
+    padding: 10px;
+    background: #34568B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .loginButton:hover {
+    background: #1d3b5c;
+  }
+  

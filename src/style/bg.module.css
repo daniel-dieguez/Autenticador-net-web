@@ -1,0 +1,11 @@
+.background{
+    position: absolute;
+  inset: 0; /* Equivalente a top: 0; right: 0; bottom: 0; left: 0; */
+  z-index: -10; /* Coloca el elemento detrás de otros */
+  height: 100%;
+  width: 100%;
+  display: flex; /* Para centrar elementos hijos si los hay */
+  align-items: center;
+  padding: 24px 5px; /* py-24 y px-5 en Tailwind */
+  background: radial-gradient(125% 125% at 50% 10%, #000 40%, #63e 100%);
+}

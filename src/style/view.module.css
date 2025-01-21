@@ -1,0 +1,28 @@
+.container {
+    display: flex; /* Usamos Flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 100vh; /* Altura completa de la ventana */
+    width: 100vw; /* Ancho completo de la ventana */
+    margin: 0; /* Eliminamos márgenes */
+    padding: 0; /* Eliminamos relleno */
+    font-family: Arial, sans-serif;
+    position: fixed; /* Fija el contenedor en toda la pantalla */
+  }
+  
+  /* Tarjeta del formulario */
+  .formCard {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    position: relative;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
